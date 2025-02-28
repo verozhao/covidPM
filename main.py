@@ -307,7 +307,8 @@ def main(file_path: str) -> dict:
 
 if __name__ == "__main__":
     # Set the file path to your COVID-19 and PM data
-    data_file_path = os.path.join(DATA_DIR, "covidPM_df_cleaned_111023.csv")
+    # data_file_path = os.path.join(DATA_DIR, "covidPM_df_cleaned_111023.csv")
+    data_file_path = "/Users/test/Desktop/covidPM_df_cleaned_111023.csv"
     
     # Check if file exists
     if not os.path.exists(data_file_path):
